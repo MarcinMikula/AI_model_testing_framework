@@ -1,0 +1,10 @@
+pytest==8.3.3
+pytest-html==4.1.1          # do generowania ładnych raportów HTML
+pandas==2.2.3
+numpy==2.1.2
+scikit-learn==1.5.2
+transformers==4.44.2        # Hugging Face transformers
+torch==2.4.1                # wymagane przez transformers (wersja bez CUDA, działa na CPU)
+matplotlib==3.9.2
+seaborn==0.13.2             # ładniejsze wykresy do raportów bias/performance
+tqdm==4.66.5                # pasek postępu przy ładowaniu modeli/datasetów
